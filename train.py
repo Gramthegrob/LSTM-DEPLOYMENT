@@ -146,7 +146,7 @@ history = model.fit(
     batch_size=BATCH_SIZE,
     class_weight=class_weights,
     callbacks=callbacks,
-    verbose=1
+    verbose=1  # ← 1 baris per epoch (ringkas)
 )
 
 # ================================================================
